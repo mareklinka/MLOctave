@@ -1,0 +1,10 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "D:/Downloads/octave-4.0.3/octave-4.0.3/bin/octave-cli.exe",
+    "isShellCommand": true,
+    "args": ["-H", "-V","--path", "\"${fileDirname}\"", "${file}"],
+    "showOutput": "always",
+    "echoCommand": false
+}
